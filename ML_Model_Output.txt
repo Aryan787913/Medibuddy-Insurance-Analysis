@@ -1,0 +1,19 @@
+Initial Model Performance:
+R² Score: 0.88
+RMSE: 4876.00 INR
+
+Tuned Model Performance:
+R² Score: 0.89
+RMSE: 4660.02 INR
+Best Parameters: {'n_estimators': 150, 'min_samples_split': 5, 'min_samples_leaf': 2, 'max_depth': 10}
+
+Feature Importance:
+    Feature  Importance
+4    smoker    0.627705
+2       bmi    0.193567
+1       age    0.152664
+3  children    0.012916
+5    region    0.008635
+0       sex    0.004513
+
+Files saved: feature_importance.csv, predictions.csv
